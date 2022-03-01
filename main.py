@@ -59,8 +59,9 @@ def main():
                     _ = Platform(pygame.mouse.get_pos())
 
         screen.fill(pygame.Color("black"))
-        all_sprites.draw(screen)
         player_group.update()
+        player_group.draw(screen)
+        platform_group.draw(screen)
         pygame.display.flip()
         clock.tick(fps)
     pygame.quit()
