@@ -57,7 +57,7 @@ class Ladders(pygame.sprite.Sprite):
 
 
 def main():
-    fps = 30
+    fps = 15
     clock = pygame.time.Clock()
     running = True
     player = None
