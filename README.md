@@ -1,5 +1,7 @@
 Данная программа представляет собой интерактивный платформер с редактором уровня в реальном времени, созданный на Python с использованием библиотеки Pygame. Пользователь может динамически создавать игровые элементы (платформы и лестницы) с помощью мыши, после чего управлять персонажем для перемещения по построенной сцене.
 
+> This program is an interactive platformer with a real-time level editor, built in Python using the Pygame library. Users can dynamically create game elements (platforms and ladders) using mouse controls, then navigate a playable character through the constructed scene.
+
 __Интерактивное создание игровых объектов:__
 + Левая кнопка мыши: размещение платформ (серые прямоугольники)
 + Ctrl + левая кнопка мыши: размещение лестниц (красные прямоугольники)
